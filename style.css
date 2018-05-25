@@ -1,0 +1,147 @@
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow: hidden;
+  list-style: none;
+  width: 100%;
+  border: 1px lightgrey;
+  text-align: right;
+}
+
+.topnav a {
+  /* Style links inside the navigation bar */
+
+  float: center;
+  color: white;
+  font-size: 20px;
+  text-align: right;
+  padding: 14px;
+}
+
+a:hover {
+  /* Selects elements when mouse cursor hovers over it */
+  color: red;
+}
+
+h1:hover {
+  /* hover on elements */
+  color: blue;
+}
+
+a:active {
+  /* Selects active link */
+  color: yellow;
+}
+
+.right {
+  /* right-aligns image next to text */
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  border: 3x solid #73ad21;
+  padding: 10px;
+  height: auto;
+  border-radius: 50%;
+  place-content: topright;
+  float: right;
+  clear: right;
+}
+
+.center-text {
+  /* centers h3 and body text */
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.hr-centered {
+  /* set horizontal line at center with margin and width */
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  margin-left: 25%;
+  width: 50%;
+  padding: 0;
+}
+
+.hr-portfolio {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  margin-top: 100px;
+ 
+}
+
+.bg-danger {
+  
+  border: 1px solid red;
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: 50px;
+  padding: 40px;
+  text-align: center;
+  box-sizing: border-box;
+  color: white;
+  }
+
+.box_blue {
+  border: 1px solid blue;
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding: 40px;
+  height: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  color: white;
+  background: #00f;
+}  
+
+.box_green {
+  border: 1px solid green;
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: 50px;
+  padding: 40px;
+  text-align: center;
+  box-sizing: border-box;
+  color: white;
+  background: green;
+}
+
+.img-squared {
+    margin-left: 50%;
+}
+
+/* for later make the images clickable and interactive looking just for the sake of training. Perhaps look into some bootstrap */
+
+/* center the unordered list*/
+
+ul {
+  display: table;
+  margin: 0 auto;
+}
+
+/* trying to add different background colors to right and left side*/
+
+.social-media{
+  text-align: center;
+}
+
+
+.footer {
+width: 100%;
+background-color: #222;
+padding: 60px;
+color: #fff;
+}
